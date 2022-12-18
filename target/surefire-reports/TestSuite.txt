@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 11.627 s <<< FAILURE! - in TestSuite
+testNGClass.ValidateACBalanceTest.loginToNeoStox  Time elapsed: 11.336 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=108.0.5359.125)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cc89c34b8630b0d7126e66e6d0d80104, clickElement {id=a1f0e4a4-1413-4d9e-87ba-2f1a040c259f}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\ramka\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64673}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64673/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (cc89c34b8630b0d7126e66e6d0d80104)] -> xpath: (//a[text()='OK'])[2]]
+Session ID: cc89c34b8630b0d7126e66e6d0d80104
+	at testNGClass.ValidateACBalanceTest.loginToNeoStox(ValidateACBalanceTest.java:43)
+
